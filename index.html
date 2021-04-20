@@ -13,28 +13,23 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="flex justify-center flex-col bg-indigo-600">
-        <div class="flex justify-between flex-row px-6 pt-8 pb-8">
-            <a href="./index.html">
+<body class="bg-indigo-600 flex flex-col min-h-screen">
+    <header class="flex justify-between flex-row px-6 pt-8 pb-8">
+        <a href="./index.html">
+            <div
+                class="link font-nunito custom-shadow mx-2 py-4 px-3 rounded-xl border-black border-2 bg-white text-lg sm:text-3xl lg:text-4xl">
+                Jordy Araújo</div>
+        </a>
+        <div class="flex flex-row justify-between">
+            <a href="./about.html">
                 <div
                     class="link font-nunito custom-shadow mx-2 py-4 px-3 rounded-xl border-black border-2 bg-white text-lg sm:text-3xl lg:text-4xl">
-                    Jordy Araújo</div>
+                    Sobre</div>
             </a>
-            <div class="flex flex-row justify-between">
-                <a href="./about.html">
-                    <div
-                        class="link font-nunito custom-shadow mx-2 py-4 px-3 rounded-xl border-black border-2 bg-white text-lg sm:text-3xl lg:text-4xl">
-                        Sobre</div>
-                </a>
-                <a href="./contact.html">
-                    <div
-                        class="link font-nunito custom-shadow mx-2 py-4 px-3 rounded-xl border-black border-2 bg-white text-lg sm:text-3xl lg:text-4xl">
-                        Contato</div>
-                </a>
-            </div>
         </div>
-        <div class="flex justify-end flex-col m-auto w-full h-auto flex-grow-0">
+    </header>
+    <main class="flex justify-center flex-col">
+        <section class="flex justify-end flex-col m-auto w-full h-auto flex-grow-0">
             <div class="flex justify-between max-w-full pb-4 items-stretch">
                 <div class="flex flex-col w-full">
                     <div class="flex justify-start flex-col max-w-full">
@@ -49,57 +44,69 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex flex-col w-11/12 max-w-screen-lg justify-center pt-8 pb-4 px-6 bg-yellow-300 rounded-xl custom-shadow border-black border-2 border-solid m-auto">
-            <div class="py-4 mb-4 px-3 mx-2 rounded-xl custom-shadow border-black border-2 border-solid bg-white text-2xl sm:text-3xl font-nunito">
+        </section>
+        <section
+            class="flex flex-col w-11/12 max-w-screen-lg justify-center pt-8 pb-4 px-6 bg-yellow-300 rounded-xl custom-shadow border-black border-2 border-solid m-auto">
+            <div
+                class="py-4 mb-4 px-3 mx-2 rounded-xl custom-shadow border-black border-2 border-solid bg-white text-2xl sm:text-3xl font-nunito">
                 Projetos</div>
             <div class="flex flex-col max-w-full">
                 <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
                     <div class="flex justify-between max-w-full items-stretch">
-                        <div
-                            class="flex flex-col max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
-                            <div class="flex justify-between max-w-full items-stretch">
-                                <div class="flex justify-between max-w-full items-stretch">
-                                    <div class="flex flex-col max-w-full justify-center">
-                                        <div
-                                            class="flex self-stretch justify-center relative w-full h-58 max-w-full rounded-sm border-black border-2 border-solid bg-white">
-                                            <img src="./src/selecao.png" />
+                        <a href="./projetos/selecao.html">
+                            <div
+                                class="link flex flex-col max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                <div class="link flex justify-between max-w-full items-stretch">
+                                    <div class="link flex justify-between max-w-full items-stretch">
+                                        <div class="link flex flex-col max-w-full justify-center">
+                                            <div
+                                                class="link flex self-stretch justify-center relative w-full h-58 max-w-full rounded-sm border-black border-2 border-solid bg-white">
+                                                <img class="link" src="./src/selecao.png" />
+                                            </div>
+                                            <div class="link max-w-full mt-4 text-xl font-nunito">Projeto Seleção SESAP
+                                            </div>
                                         </div>
-                                        <div class="max-w-full mt-4 text-xl font-nunito">Projeto Seleção SESAP</div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="flex justify-between max-w-full items-stretch">
-                        <div
-                            class="flex flex-col max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
-                            <div class="flex justify-between max-w-full items-stretch">
-                                <div class="flex justify-between max-w-full items-stretch">
-                                    <div class="flex flex-col max-w-full justify-center">
-                                        <div
-                                            class="flex self-stretch justify-center relative w-full h-58 max-w-full rounded-sm border-black border-2 border-solid bg-white">
-                                            <img src="./src/compressao.png" />
+                        <a href="./projetos/compressao.html">
+                            <div
+                                class="link flex flex-col max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                <div class="link flex justify-between max-w-full items-stretch">
+                                    <div class="link flex justify-between max-w-full items-stretch">
+                                        <div class="link flex flex-col max-w-full justify-center">
+                                            <div
+                                                class="link flex self-stretch justify-center relative w-full h-58 max-w-full rounded-sm border-black border-2 border-solid bg-white">
+                                                <img class="link" src="./src/compressao.png" />
+                                            </div>
+                                            <div class="link max-w-full mt-4 text-lg sm:text-xl  font-nunito">Algoritmo
+                                                de
+                                                Compressão </div>
                                         </div>
-                                        <div class="max-w-full mt-4 text-lg sm:text-xl font-nunito">Algoritmo de
-                                            Compressão </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex flex-col w-11/12 max-w-screen-lg justify-center p-8 bg-yellow-300 rounded-xl custom-shadow border-black border-2 border-solid mt-8 mx-auto">
-            <div class="py-4 mb-4 px-3 mx-2 rounded-xl custom-shadow border-black border-2 border-solid bg-white text-2xl sm:text-3xl font-nunito">
+        </section>
+        <section
+            class="flex flex-col w-11/12 max-w-screen-lg justify-center p-8 bg-yellow-300 rounded-xl custom-shadow border-black border-2 border-solid mt-8 mx-auto">
+            <div
+                class="py-4 mb-4 px-3 mx-2 rounded-xl custom-shadow border-black border-2 border-solid bg-white text-2xl sm:text-3xl font-nunito">
                 Experiência</div>
-                <div class="flex flex-col max-w-full">
-                    <div class="flex flex-col 2xl:flex-row justify-between max-w-full items-stretch">
-                        <div class="flex flex-col xl:flex-row justify-between max-w-full items-stretch">
-                            <div class="flex flex-col lg:flex-row justify-between max-w-full items-stretch">
-                                <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
-                                    <div class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
+            <div class="flex flex-col max-w-full">
+                <div class="flex flex-col 2xl:flex-row justify-between max-w-full items-stretch">
+                    <div class="flex flex-col xl:flex-row justify-between max-w-full items-stretch">
+                        <div class="flex flex-col lg:flex-row justify-between max-w-full items-stretch">
+                            <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
+                                <div
+                                    class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    <a href="./experiencia/gtrigueiro.html">
                                         <div class="flex justify-between max-w-full items-stretch">
                                             <div class="flex justify-between max-w-full items-stretch">
                                                 <div class="flex flex-col max-w-full justify-center">
@@ -107,12 +114,16 @@
                                                         class="flex self-stretch justify-center relative w-full max-w-full rounded-sm border-black border-2 border-solid bg-white">
                                                         <img src="./src/GTrigueiroSesap.png" />
                                                     </div>
-                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl font-nunito">Grupo G-Trigueiro - SESAP</div>
+                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        G-Trigueiro - SESAP</div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
+                                    </a>
+                                </div>
+                                <div
+                                    class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    <a href="./experiencia/lii.html">
                                         <div class="flex justify-between max-w-full items-stretch">
                                             <div class="flex justify-between max-w-full items-stretch">
                                                 <div class="flex flex-col max-w-full justify-center">
@@ -120,14 +131,18 @@
                                                         class="flex self-stretch justify-center relative w-full max-w-full rounded-sm border-black border-2 border-solid bg-white">
                                                         <img src="./src/LII.png" />
                                                     </div>
-                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl font-nunito">Informática Industrial - UFRN</div>
+                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        Informática Industrial - UFRN</div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
-                                <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
-                                    <div class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
+                            </div>
+                            <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
+                                <div
+                                    class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    <a href="./experiencia/sinfo.html">
                                         <div class="flex justify-between max-w-full items-stretch">
                                             <div class="flex justify-between max-w-full items-stretch">
                                                 <div class="flex flex-col max-w-full justify-center">
@@ -135,12 +150,16 @@
                                                         class="flex self-stretch justify-center relative w-full max-w-full rounded-sm border-black border-2 border-solid bg-white">
                                                         <img src="./src/Sinfo.png" />
                                                     </div>
-                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl font-nunito">Superintendência de Informática</div>
+                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        Superintendência de Informática</div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
+                                    </a>
+                                </div>
+                                <div
+                                    class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    <a href="./experiencia/cpnatal.html">
                                         <div class="flex justify-between max-w-full items-stretch">
                                             <div class="flex justify-between max-w-full items-stretch">
                                                 <div class="flex flex-col max-w-full justify-center">
@@ -148,20 +167,24 @@
                                                         class="flex self-stretch justify-center relative w-full max-w-full rounded-sm border-black border-2 border-solid bg-white">
                                                         <img src="./src/cpNatal.jpg" />
                                                     </div>
-                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl font-nunito">Campus Party Natal 2018</div>
+                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        Campus Party Natal 2018</div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col 2xl:flex-row justify-between max-w-full items-stretch">
-                        <div class="flex flex-col xl:flex-row justify-between max-w-full items-stretch">
-                            <div class="flex flex-col lg:flex-row justify-between max-w-full items-stretch">
-                                <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
-                                    <div class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
+                </div>
+                <div class="flex flex-col 2xl:flex-row justify-between max-w-full items-stretch">
+                    <div class="flex flex-col xl:flex-row justify-between max-w-full items-stretch">
+                        <div class="flex flex-col lg:flex-row justify-between max-w-full items-stretch">
+                            <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
+                                <div
+                                    class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    <a href="./experiencia/aresta3d.html">
                                         <div class="flex justify-between max-w-full items-stretch">
                                             <div class="flex justify-between max-w-full items-stretch">
                                                 <div class="flex flex-col max-w-full justify-center">
@@ -169,12 +192,16 @@
                                                         class="flex self-stretch justify-center relative w-full max-w-full rounded-sm border-black border-2 border-solid bg-white">
                                                         <img src="./src/Aresta3D.jpg" />
                                                     </div>
-                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl font-nunito">Estágio Startup Aresta 3D</div>
+                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        Estágio Startup Aresta 3D</div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
+                                    </a>
+                                </div>
+                                <div
+                                    class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    <a href="./experiencia/ck16.html">
                                         <div class="flex justify-between max-w-full items-stretch">
                                             <div class="flex justify-between max-w-full items-stretch">
                                                 <div class="flex flex-col max-w-full justify-center">
@@ -182,14 +209,19 @@
                                                         class="flex self-stretch justify-center relative w-full max-w-full rounded-sm border-black border-2 border-solid bg-white">
                                                         <img src="./src/CK16.jpg" />
                                                     </div>
-                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl font-nunito">Lider de Design - CK16</div>
+                                                    <div
+                                                        class="max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        Líder de Design e Estrutura - CK16</div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
-                                <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
-                                    <div class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
+                            </div>
+                            <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
+                                <div
+                                    class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    <a href="./experiencia/mit.html">
                                         <div class="flex justify-between max-w-full items-stretch">
                                             <div class="flex justify-between max-w-full items-stretch">
                                                 <div class="flex flex-col max-w-full justify-center">
@@ -197,59 +229,66 @@
                                                         class="flex self-stretch justify-center relative w-full max-w-full rounded-sm border-black border-2 border-solid bg-white">
                                                         <img src="./src/MIT.jpg" />
                                                     </div>
-                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl font-nunito">Summer Internship - MIT</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-200">
-                                        <div class="flex justify-between max-w-full items-stretch">
-                                            <div class="flex justify-between max-w-full items-stretch">
-                                                <div class="flex flex-col max-w-full justify-center">
                                                     <div
-                                                        class="flex self-stretch justify-center relative w-full max-w-full rounded-sm border-black border-2 border-solid bg-white">
-                                                        <img src="./src/CK14.jpg" />
-                                                    </div>
-                                                    <div class="max-w-full mt-4 text-md md:text-lg lg:text-xl font-nunito">Lider de Eletrônica - CK14</div>
+                                                        class="max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        Summer Internship - MIT</div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
+                                </div>
+                                <div
+                                    class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    <a href="./experiencia/ck14.html">
+                                        <div class="link flex justify-between max-w-full items-stretch">
+                                            <div class="link flex justify-between max-w-full items-stretch">
+                                                <div class="link flex flex-col max-w-full justify-center">
+                                                    <div
+                                                        class="link flex self-stretch justify-center relative w-full max-w-full rounded-sm border-black border-2 border-solid bg-white">
+                                                        <img class="link" src="./src/CK14.jpg" />
+                                                    </div>
+                                                    <div
+                                                        class="link max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        Líder de Eletrônica - CK14</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-        </div>
-        <div class="div-39">
-            <div class="div-40">
-                <div class="flex justify-between max-w-full pb-4 items-stretch">
-                    <div class="flex justify-between max-w-full items-stretch">
-                        <div class="akar-icons-twitter-fill-link">
-                            <div class="div-41">
-                                <img
-                                    src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3b1f7b682e8a4bc9a1f165186c8d52e0" />
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </section>
+    </main>
+    <footer class="justify-center p-12 flex flex-row">
+        <div class="flex flex-col justify-start">
+            <div class="flex justify-between max-w-full pb-4 items-stretch">
+                <div class="flex justify-between max-w-full items-stretch">
 
                     <div class="flex justify-between max-w-full items-stretch">
-                        <div class="div-42">
+                        <div class="flex relative max-w-full w-10">
                             <img
-                                src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F4087f9409f9f4b0da76f392c0d505d70" />
+                                src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F3b1f7b682e8a4bc9a1f165186c8d52e0" />
                         </div>
                     </div>
-                    <div class="flex justify-between max-w-full items-stretch">
-                        <div class="div-43">
-                            <img
-                                src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F37d211dabadc4123bbbc214a9f4099c4" />
-                        </div>
+                </div>
+                <div class="flex justify-between mx-2 max-w-full items-stretch">
+                    <div class="flex relative max-w-full w-10">
+                        <img
+                            src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F4087f9409f9f4b0da76f392c0d505d70" />
+                    </div>
+                </div>
+                <div class="flex justify-between max-w-full items-stretch">
+                    <div class="flex relative max-w-full w-10">
+                        <img
+                            src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F37d211dabadc4123bbbc214a9f4099c4" />
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
