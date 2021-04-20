@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 
 <body class="bg-indigo-600 flex flex-col min-h-screen">
@@ -46,16 +47,16 @@
             </div>
         </section>
         <section
-            class="flex flex-col w-11/12 max-w-screen-lg justify-center pt-8 pb-4 px-6 bg-yellow-300 rounded-xl custom-shadow border-black border-2 border-solid m-auto">
+            class="flex flex-col w-11/12 max-w-screen-lg justify-center p-6 bg-yellow-300 rounded-xl custom-shadow border-black border-2 border-solid m-auto">
             <div
                 class="py-4 mb-4 px-3 mx-2 rounded-xl custom-shadow border-black border-2 border-solid bg-white text-2xl sm:text-3xl font-nunito">
                 Projetos</div>
             <div class="flex flex-col max-w-full">
                 <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
-                    <div class="flex justify-between max-w-full items-stretch">
+                    <div class="flex justify-between max-w-full  items-stretch">
                         <a href="./projetos/selecao.html">
                             <div
-                                class="link flex flex-col max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                class="link flex flex-col max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-2 border-black border-2 border-solid bg-gray-300 border-hover">
                                 <div class="link flex justify-between max-w-full items-stretch">
                                     <div class="link flex justify-between max-w-full items-stretch">
                                         <div class="link flex flex-col max-w-full justify-center">
@@ -63,7 +64,7 @@
                                                 class="link flex self-stretch justify-center relative w-full h-58 max-w-full rounded-sm border-black border-2 border-solid bg-white">
                                                 <img class="link" src="./src/selecao.png" />
                                             </div>
-                                            <div class="link max-w-full mt-4 text-xl font-nunito">Projeto Seleção SESAP
+                                            <div class="link text-hover lg:hidden max-w-full mt-4 text-xl font-nunito">Projeto Seleção SESAP
                                             </div>
                                         </div>
                                     </div>
@@ -74,7 +75,7 @@
                     <div class="flex justify-between max-w-full items-stretch">
                         <a href="./projetos/compressao.html">
                             <div
-                                class="link flex flex-col max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                class="link flex flex-col max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-2 border-black border-2 border-solid bg-gray-300 border-hover">
                                 <div class="link flex justify-between max-w-full items-stretch">
                                     <div class="link flex justify-between max-w-full items-stretch">
                                         <div class="link flex flex-col max-w-full justify-center">
@@ -82,7 +83,7 @@
                                                 class="link flex self-stretch justify-center relative w-full h-58 max-w-full rounded-sm border-black border-2 border-solid bg-white">
                                                 <img class="link" src="./src/compressao.png" />
                                             </div>
-                                            <div class="link max-w-full mt-4 text-lg sm:text-xl  font-nunito">Algoritmo
+                                            <div class="link text-hover lg:hidden max-w-full mt-4 text-lg sm:text-xl font-nunito">Algoritmo
                                                 de
                                                 Compressão </div>
                                         </div>
@@ -95,7 +96,7 @@
             </div>
         </section>
         <section
-            class="flex flex-col w-11/12 max-w-screen-lg justify-center p-8 bg-yellow-300 rounded-xl custom-shadow border-black border-2 border-solid mt-8 mx-auto">
+            class="flex flex-col w-11/12 max-w-screen-lg justify-center p-6 bg-yellow-300 rounded-xl custom-shadow border-black border-2 border-solid mt-8 mx-auto">
             <div
                 class="py-4 mb-4 px-3 mx-2 rounded-xl custom-shadow border-black border-2 border-solid bg-white text-2xl sm:text-3xl font-nunito">
                 Experiência</div>
@@ -106,7 +107,7 @@
                             <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
                                 <a href="./experiencia/gtrigueiro.html">
                                 <div
-                                    class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-4 border-black border-2 border-solid bg-gray-300 border-hover">
                                         <div class="link flex justify-between max-w-full items-stretch">
                                             <div class="link flex justify-between max-w-full items-stretch">
                                                 <div class="link flex flex-col max-w-full justify-center">
@@ -115,7 +116,7 @@
                                                         <img class="link" src="./src/GTrigueiroSesap.png" />
                                                     </div>
                                                     <div
-                                                        class="link max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        class="link text-hover lg:hidden max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
                                                         G-Trigueiro - SESAP</div>
                                                 </div>
                                             </div>
@@ -124,7 +125,7 @@
                                 </a>
                                 <a href="./experiencia/lii.html">
                                 <div
-                                    class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-4 border-black border-2 border-solid bg-gray-300 border-hover">
                                         <div class="link flex justify-between max-w-full items-stretch">
                                             <div class="link flex justify-between max-w-full items-stretch">
                                                 <div class="link flex flex-col max-w-full justify-center">
@@ -133,7 +134,7 @@
                                                         <img class="link" src="./src/LII.png" />
                                                     </div>
                                                     <div
-                                                        class="link max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        class="link text-hover lg:hidden max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
                                                         Informática Industrial - UFRN</div>
                                                 </div>
                                             </div>
@@ -144,7 +145,7 @@
                             <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
                                 <a href="./experiencia/sinfo.html">
                                 <div
-                                    class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                    class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-4 border-black border-2 border-solid bg-gray-300 border-hover">
                                         <div class="link flex justify-between max-w-full items-stretch">
                                             <div class="link flex justify-between max-w-full items-stretch">
                                                 <div class="link flex flex-col max-w-full justify-center">
@@ -153,7 +154,7 @@
                                                         <img class="link" src="./src/Sinfo.png" />
                                                     </div>
                                                     <div
-                                                        class="link max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        class="link text-hover lg:hidden max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
                                                         Superintendência de Informática</div>
                                                 </div>
                                             </div>
@@ -162,7 +163,7 @@
                                 </a>
                                 <a href="./experiencia/cpnatal.html">
                                     <div
-                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-4 border-black border-2 border-solid bg-gray-300 border-hover">
                                         <div class="link flex justify-between max-w-full items-stretch">
                                             <div class="link flex justify-between max-w-full items-stretch">
                                                 <div class="link flex flex-col max-w-full justify-center">
@@ -171,7 +172,7 @@
                                                         <img class="link" src="./src/cpNatal.jpg" />
                                                     </div>
                                                     <div
-                                                        class="link max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        class="link text-hover lg:hidden max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
                                                         Campus Party Natal</div>
                                                 </div>
                                             </div>
@@ -188,7 +189,7 @@
                             <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
                                 <a href="./experiencia/aresta3d.html">
                                     <div
-                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-2 border-black border-2 border-solid bg-gray-300 border-hover">
                                         <div class="link flex justify-between max-w-full items-stretch">
                                             <div class="link flex justify-between max-w-full items-stretch">
                                                 <div class="link flex flex-col max-w-full justify-center">
@@ -197,7 +198,7 @@
                                                         <img class="link" src="./src/Aresta3D.jpg" />
                                                     </div>
                                                     <div
-                                                        class="link max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        class="link text-hover lg:hidden max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
                                                         Estágio Startup Aresta 3D</div>
                                                 </div>
                                             </div>
@@ -206,7 +207,7 @@
                                 </a>
                                 <a href="./experiencia/ck16.html">
                                     <div
-                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-2 border-black border-2 border-solid bg-gray-300 border-hover">
                                         <div class="link flex justify-between max-w-full items-stretch">
                                             <div class="link flex justify-between max-w-full items-stretch">
                                                 <div class="link flex flex-col max-w-full justify-center">
@@ -215,7 +216,7 @@
                                                         <img class="link" src="./src/CK16.jpg" />
                                                     </div>
                                                     <div
-                                                        class="link max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        class="link text-hover lg:hidden max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
                                                         Líder de Design e Estrutura - CK16</div>
                                                 </div>
                                             </div>
@@ -226,7 +227,7 @@
                             <div class="flex flex-col md:flex-row justify-between max-w-full items-stretch">
                                 <a href="./experiencia/mit.html">
                                     <div
-                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-2 border-black border-2 border-solid bg-gray-300 border-hover">
                                         <div class="link flex justify-between max-w-full items-stretch">
                                             <div class="link flex justify-between max-w-full items-stretch">
                                                 <div class="link flex flex-col max-w-full justify-center">
@@ -235,7 +236,7 @@
                                                         <img class="link" src="./src/MIT.jpg" />
                                                     </div>
                                                     <div
-                                                        class="link max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        class="link text-hover lg:hidden max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
                                                         Summer Internship - MIT</div>
                                                 </div>
                                             </div>
@@ -244,7 +245,7 @@
                                 </a>
                                 <a href="./experiencia/ck14.html">
                                     <div
-                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-5 mx-2 mb-4 border-black border-2 border-solid bg-gray-300">
+                                        class="link flex flex-col sm:flex-row max-w-full justify-center rounded-xl custom-shadow p-3 mx-2 mb-2 border-black border-2 border-solid bg-gray-300 border-hover">
                                         <div class="link flex justify-between max-w-full items-stretch">
                                             <div class="link flex justify-between max-w-full items-stretch">
                                                 <div class="link flex flex-col max-w-full justify-center">
@@ -253,7 +254,7 @@
                                                         <img class="link" src="./src/CK14.jpg" />
                                                     </div>
                                                     <div
-                                                        class="link max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
+                                                        class="link text-hover lg:hidden max-w-full mt-4 text-md md:text-lg lg:text-xl  font-nunito">
                                                         Líder de Eletrônica - CK14</div>
                                                 </div>
                                             </div>
@@ -289,6 +290,16 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        $( ".border-hover" )
+            .mouseenter(function() {
+                $( this ).find( ".text-hover" ).removeClass("lg:hidden");
+            })
+            .mouseleave(function() {
+                $( this ).find( ".text-hover" ).addClass("lg:hidden");
+        });
+    </script>
 </body>
 
 </html>
