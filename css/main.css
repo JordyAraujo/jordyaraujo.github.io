@@ -2,6 +2,12 @@
   cursor: url("../src/cursor.png"), auto;
 }
 
+@supports (-webkit-touch-callout: none) {
+  body {
+      height: -webkit-fill-available;
+  }
+}
+
 .link {
   text-decoration: none;
   color: black;
